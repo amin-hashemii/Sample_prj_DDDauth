@@ -1,0 +1,12 @@
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\bin\Debug\net6.0\MyPrj.Domain.deps.json
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\bin\Debug\net6.0\MyPrj.Domain.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\bin\Debug\net6.0\MyPrj.Domain.pdb
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\MyPrj.Domain.csproj.AssemblyReference.cache
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\MyPrj.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\MyPrj.Domain.AssemblyInfoInputs.cache
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\MyPrj.Domain.AssemblyInfo.cs
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\MyPrj.Domain.csproj.CoreCompileInputs.cache
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\MyPrj.Domain.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\refint\MyPrj.Domain.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\MyPrj.Domain.pdb
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Domain\obj\Debug\net6.0\ref\MyPrj.Domain.dll

@@ -1,0 +1,17 @@
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\bin\Debug\net6.0\MyPrj.Infrasructure.deps.json
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\bin\Debug\net6.0\MyPrj.Infrasructure.runtimeconfig.json
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\bin\Debug\net6.0\MyPrj.Infrasructure.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\bin\Debug\net6.0\MyPrj.Infrasructure.pdb
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\bin\Debug\net6.0\MyPrj.Domain.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\bin\Debug\net6.0\MyPrj.Domain.pdb
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.csproj.AssemblyReference.cache
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.AssemblyInfoInputs.cache
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.AssemblyInfo.cs
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.csproj.CoreCompileInputs.cache
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.csproj.CopyComplete
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\refint\MyPrj.Infrasructure.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.pdb
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\MyPrj.Infrasructure.genruntimeconfig.cache
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Infrasructure\obj\Debug\net6.0\ref\MyPrj.Infrasructure.dll

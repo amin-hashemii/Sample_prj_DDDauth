@@ -1,0 +1,319 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Api\\MyPrj.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Api\\MyPrj.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Api\\MyPrj.Api.csproj",
+        "projectName": "MyPrj.Api",
+        "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Api\\MyPrj.Api.csproj",
+        "packagesPath": "C:\\Users\\m.hashemi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\m.hashemi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git-neo.hooshmandsepehrco.com/api/v4/projects/19/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Application\\MyPrj.Application.csproj": {
+                "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Application\\MyPrj.Application.csproj"
+              },
+              "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj": {
+                "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj"
+              },
+              "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Infrasructure\\MyPrj.Infrasructure.csproj": {
+                "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Infrasructure\\MyPrj.Infrasructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Application\\MyPrj.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Application\\MyPrj.Application.csproj",
+        "projectName": "MyPrj.Application",
+        "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Application\\MyPrj.Application.csproj",
+        "packagesPath": "C:\\Users\\m.hashemi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\m.hashemi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git-neo.hooshmandsepehrco.com/api/v4/projects/19/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj": {
+                "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj",
+        "projectName": "MyPrj.Domain",
+        "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj",
+        "packagesPath": "C:\\Users\\m.hashemi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\m.hashemi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git-neo.hooshmandsepehrco.com/api/v4/projects/19/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Infrasructure\\MyPrj.Infrasructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Infrasructure\\MyPrj.Infrasructure.csproj",
+        "projectName": "MyPrj.Infrasructure",
+        "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Infrasructure\\MyPrj.Infrasructure.csproj",
+        "packagesPath": "C:\\Users\\m.hashemi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Infrasructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\m.hashemi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git-neo.hooshmandsepehrco.com/api/v4/projects/19/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj": {
+                "projectPath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Domain\\MyPrj.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

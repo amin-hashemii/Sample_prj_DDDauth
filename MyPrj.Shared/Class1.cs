@@ -1,0 +1,5 @@
+﻿namespace MyPrj.Shared;
+
+public class Class1
+{
+}
