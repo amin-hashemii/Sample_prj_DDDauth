@@ -1,5 +1,6 @@
 using System.Security.Claims;
 using System.Text;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -8,20 +9,29 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MyPrj.Application.Auth.Handler;
 using MyPrj.Application.Auth.PasswordHash;
+using MyPrj.Application.MappingProfile;
 using MyPrj.Application.Services;
+using MyPrj.Application.Validators;
 using MyPrj.Domain.Interface;
 using MyPrj.Domain.Models;
 using MyPrj.Domain.Repository;
 using MyPrj.Infrasructure.Auth;
 using MyPrj.Infrasructure.Cotext;
+using MyPrj.Infrasructure.Event;
 using MyPrj.Infrasructure.Repository;
+using Sample_prj_DDDauth.Event;
+using Sample_prj_DDDauth.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddMediatR(typeof(AddUserCommandHandler).Assembly);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddFluentValidation(config =>
+    {
+        config.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>();
+    });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -94,7 +104,7 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
-
+builder.Services.AddScoped<IDomainEventDispatcher, DomainEventDispatcher>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IJwtService, JwtService>();
@@ -102,7 +112,7 @@ builder.Services.AddScoped<IunitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IPasswordHasher, BcryptPasswordHasher>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 builder.Services.AddScoped<AuthService>();
-
+builder.Services.AddAutoMapper(typeof(ProductMappingProfile).Assembly);
 
 
 var app = builder.Build();
@@ -113,12 +123,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
-
 app.MapControllers();
 
 app.Run();

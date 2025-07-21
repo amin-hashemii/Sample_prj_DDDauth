@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HdvjcvIAU+Q=",
+  "dgSpecHash": "Qx2mPckPepo=",
   "success": true,
   "projectFilePath": "C:\\Users\\m.hashemi\\RiderProjects\\Sample_prj_DDDauth\\MyPrj.Infrasructure\\MyPrj.Infrasructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\m.hashemi\\.nuget\\packages\\fluentvalidation\\11.0.0\\fluentvalidation.11.0.0.nupkg.sha512",
+    "C:\\Users\\m.hashemi\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.0\\fluentvalidation.aspnetcore.11.0.0.nupkg.sha512",
+    "C:\\Users\\m.hashemi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
     "C:\\Users\\m.hashemi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\m.hashemi\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512",
     "C:\\Users\\m.hashemi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\m.hashemi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\m.hashemi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

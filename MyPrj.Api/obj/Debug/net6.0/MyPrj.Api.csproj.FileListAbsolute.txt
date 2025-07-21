@@ -71,3 +71,11 @@ C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\M
 C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\m.hashemi\RiderProjects\Sample_prj_DDDauth\MyPrj.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

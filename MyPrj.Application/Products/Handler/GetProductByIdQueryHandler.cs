@@ -21,5 +21,6 @@ public class GetProductByIdQueryHandler:IRequestHandler<GetProductByIdQuery, pro
             throw new Exception("Product not found");
 
         return await _context.ProductRepository.GetByIdAsync(request.ProductId);
+     //   throw new Exception("این یک خطای تستی است");
     }
 }

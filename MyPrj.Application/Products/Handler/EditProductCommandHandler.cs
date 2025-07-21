@@ -30,8 +30,7 @@ public class EditProductCommandHandler:IRequestHandler<EditProductCommand>
            if (product.CreatedByUserId != userId)
                throw new UnauthorizedAccessException("شما مجاز به ویرایش این محصول نیستید");
 
-           product.Name = request.ProductName;
-           product.Description = request.ProductDescription;
+          product.Edit(request.ProductName, request.ProductDescription);
 
            await _unitOfWork.SaveChangesAsync();
 
